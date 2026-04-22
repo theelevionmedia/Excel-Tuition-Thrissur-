@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Excel Tuition Centre | CBSE & ICSE Tuitions in Patturaikkal, Thrissur</title>
+  <meta name="description" content="Excel Tuition Centre in Patturaikkal, Thrissur offers personalized CBSE & ICSE tuitions for classes 7–12. Small batch sizes, experienced faculty, individual attention. Enquire now!" />
+  <meta name="keywords" content="tuition centre Thrissur, CBSE tuition Patturaikkal, ICSE tuition Thrissur, maths science tuition Thrissur, Excel tuition centre, Uma Venkitesh tuition" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Excel Tuition Centre | Best CBSE & ICSE Tuitions in Thrissur" />
+  <meta property="og:description" content="Personalized tuitions for classes 7–12 in Patturaikkal, Thrissur. CBSE & ICSE. Small batches. Experienced faculty." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
+  <link rel="canonical" href="https://sites.google.com/view/exceltuitioncentre/home" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ===== CSS VARIABLES ===== */
+    :root {
+      --green-deep: #1a5c38;
+      --green-mid: #1e7a47;
+      --green-light: #29a05e;
+      --green-accent: #3cc47a;
+      --green-pale: #e8f5ee;
+      --gold: #c9993a;
+      --gold-light: #f0c96a;
+      --off-white: #f7f9f7;
+      --white: #ffffff;
+      --text-dark: #111a14;
+      --text-mid: #3a4d3e;
+      --text-light: #6b7f70;
+      --shadow-sm: 0 2px 12px rgba(26,92,56,0.08);
+      --shadow-md: 0 8px 32px rgba(26,92,56,0.13);
+      --shadow-lg: 0 20px 60px rgba(26,92,56,0.18);
+      --radius: 16px;
+      --radius-sm: 10px;
+    }
+
+    /* ===== RESET ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--off-white);
+      color: var(--text-dark);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+
+    /* ===== ANIMATIONS ===== */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; } to { opacity: 1; }
+    }
+    @keyframes slideRight {
+      from { opacity: 0; transform: translateX(-30px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50%       { transform: translateY(-8px); }
+    }
+    @keyframes shimmer {
+      0%   { background-position: -200% center; }
+      100% { background-position:  200% center; }
+    }
+    @keyframes pulse-ring {
+      0%   { transform: scale(1); opacity: 0.6; }
+      100% { transform: scale(1.5); opacity: 0; }
+    }
+    @keyframes spin-slow {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+    @keyframes countUp {
+      from { opacity: 0; transform: scale(0.8); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.65s ease, transform 0.65s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ===== NAVBAR ===== */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      box-shadow: 0 1px 0 rgba(26,92,56,0.1);
+      transition: background 0.3s ease;
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .nav-logo img {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .nav-logo-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+    }
+    .nav-logo-text strong {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.88rem;
+      color: var(--green-deep);
+      letter-spacing: 0.01em;
+    }
+    .nav-logo-text span {
+      font-size: 0.65rem;
+      color: var(--text-light);
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .nav-cta {
+      background: var(--green-mid);
+      color: white;
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 50px;
+      letter-spacing: 0.02em;
+      transition: background 0.2s ease, transform 0.2s ease;
+      white-space: nowrap;
+    }
+    .nav-cta:active { transform: scale(0.97); }
+
+    /* ===== HERO ===== */
+    .hero {
+      min-height: 100svh;
+      background: linear-gradient(155deg, var(--green-deep) 0%, var(--green-mid) 55%, #1d6640 100%);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 24px 60px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .hero-bg-circle {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.04);
+    }
+    .hero-bg-circle.c1 { width: 500px; height: 500px; top: -150px; right: -150px; }
+    .hero-bg-circle.c2 { width: 300px; height: 300px; bottom: -80px; left: -80px; }
+    .hero-bg-circle.c3 { width: 200px; height: 200px; top: 40%; left: -60px; background: rgba(255,255,255,0.03); }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: white;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 50px;
+      margin-bottom: 24px;
+      animation: fadeIn 0.8s ease both;
+      backdrop-filter: blur(8px);
+    }
+    .hero-badge::before {
+      content: '';
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--green-accent);
+      box-shadow: 0 0 8px var(--green-accent);
+      animation: pulse-ring 1.8s infinite;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.2rem, 8vw, 3.8rem);
+      font-weight: 900;
+      color: white;
+      line-height: 1.1;
+      margin-bottom: 8px;
+      animation: fadeUp 0.9s 0.1s ease both;
+    }
+    .hero h1 span {
+      background: linear-gradient(90deg, var(--gold-light), var(--gold), var(--gold-light));
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: shimmer 3s linear infinite;
+    }
+    .hero-tagline {
+      font-size: clamp(0.82rem, 3vw, 1rem);
+      color: rgba(255,255,255,0.75);
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      animation: fadeUp 0.9s 0.2s ease both;
+    }
+    .hero p {
+      font-size: clamp(0.9rem, 3.2vw, 1.05rem);
+      color: rgba(255,255,255,0.82);
+      max-width: 440px;
+      line-height: 1.65;
+      margin-bottom: 36px;
+      animation: fadeUp 0.9s 0.3s ease both;
+    }
+    .hero-buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+      animation: fadeUp 0.9s 0.4s ease both;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: white;
+      color: var(--green-deep);
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 14px 24px;
+      border-radius: 50px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .btn-primary:active { transform: scale(0.97); }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.15);
+      color: white;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 14px 24px;
+      border-radius: 50px;
+      border: 1px solid rgba(255,255,255,0.3);
+      backdrop-filter: blur(8px);
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    .btn-secondary:active { transform: scale(0.97); }
+
+    /* Google rating badge in hero */
+    .hero-rating {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      backdrop-filter: blur(10px);
+      border-radius: 50px;
+      padding: 10px 20px;
+      animation: fadeUp 0.9s 0.5s ease both;
+    }
+    .hero-rating .stars { color: #fbbc04; font-size: 1rem; letter-spacing: 1px; }
+    .hero-rating .rating-text {
+      color: white;
+      font-size: 0.78rem;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+    .hero-rating .rating-text span { color: rgba(255,255,255,0.65); font-weight: 400; }
+
+    /* ===== TICKER ===== */
+    .ticker {
+      background: var(--green-deep);
+      padding: 12px 0;
+      overflow: hidden;
+    }
+    .ticker-inner {
+      display: flex;
+      gap: 0;
+      white-space: nowrap;
+      animation: marquee 20s linear infinite;
+      width: max-content;
+    }
+    .ticker-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: rgba(255,255,255,0.85);
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0 28px;
+    }
+    .ticker-dot { color: var(--gold-light); font-size: 1.1rem; }
+
+    /* ===== SECTION COMMONS ===== */
+    section { padding: 72px 24px; }
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--green-mid);
+      margin-bottom: 12px;
+    }
+    .section-label::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: var(--green-mid);
+      border-radius: 2px;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.7rem, 5.5vw, 2.4rem);
+      font-weight: 800;
+      color: var(--text-dark);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .section-title span { color: var(--green-mid); }
+    .section-subtitle {
+      font-size: 0.95rem;
+      color: var(--text-light);
+      line-height: 1.7;
+      max-width: 520px;
+    }
+
+    /* ===== STATS BAR ===== */
+    .stats-bar {
+      background: white;
+      padding: 32px 24px;
+      box-shadow: var(--shadow-sm);
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .stat-card {
+      text-align: center;
+      padding: 20px 12px;
+      background: var(--green-pale);
+      border-radius: var(--radius-sm);
+    }
+    .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--green-deep);
+      line-height: 1;
+    }
+    .stat-number sup { font-size: 1rem; vertical-align: super; }
+    .stat-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-light);
+      letter-spacing: 0.04em;
+      margin-top: 6px;
+    }
+
+    /* ===== ABOUT ===== */
+    .about { background: white; }
+    .about-inner { max-width: 700px; margin: 0 auto; }
+    .about-card {
+      background: var(--green-pale);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      margin-top: 28px;
+      border-left: 4px solid var(--green-mid);
+    }
+    .about-card p {
+      font-size: 0.93rem;
+      color: var(--text-mid);
+      line-height: 1.75;
+    }
+    .about-card p + p { margin-top: 14px; }
+
+    /* ===== FOUNDER ===== */
+    .founder { background: var(--off-white); }
+    .founder-inner { max-width: 700px; margin: 0 auto; }
+    .founder-card {
+      background: white;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      margin-top: 28px;
+    }
+    .founder-photo {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      object-position: center top;
+    }
+    .founder-info { padding: 28px 24px; }
+    .founder-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--green-deep);
+      margin-bottom: 4px;
+    }
+    .founder-role {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin-bottom: 16px;
+    }
+    .founder-bio {
+      font-size: 0.9rem;
+      color: var(--text-mid);
+      line-height: 1.75;
+    }
+    .founder-credentials {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+    .credential-tag {
+      background: var(--green-pale);
+      color: var(--green-deep);
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 50px;
+      letter-spacing: 0.03em;
+    }
+
+    /* ===== SERVICES ===== */
+    .services { background: var(--green-deep); padding: 72px 24px; }
+    .services .section-label { color: var(--green-accent); }
+    .services .section-label::before { background: var(--green-accent); }
+    .services .section-title { color: white; }
+    .services .section-subtitle { color: rgba(255,255,255,0.65); }
+    .services-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 32px;
+      max-width: 700px;
+    }
+    .service-card {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: var(--radius-sm);
+      padding: 20px 18px;
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .service-card:active { transform: scale(0.98); }
+    .service-icon {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .service-title {
+      font-weight: 700;
+      font-size: 0.88rem;
+      color: white;
+      margin-bottom: 6px;
+    }
+    .service-items {
+      list-style: none;
+    }
+    .service-items li {
+      font-size: 0.77rem;
+      color: rgba(255,255,255,0.65);
+      padding: 2px 0;
+      line-height: 1.5;
+    }
+    .service-card.highlight {
+      background: rgba(255,255,255,0.12);
+      border-color: rgba(255,255,255,0.25);
+      grid-column: 1 / -1;
+      margin-top: 24px;
+    }
+    .service-card.highlight .service-title { color: var(--gold-light); font-size: 0.92rem; }
+    .badges-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: white;
+      font-size: 0.73rem;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 50px;
+    }
+    .badge-pill .check { color: var(--green-accent); }
+
+    /* ===== WHY CHOOSE US ===== */
+    .why { background: white; }
+    .features-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 32px;
+      max-width: 700px;
+    }
+    .feature-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 20px;
+      background: var(--off-white);
+      border-radius: var(--radius-sm);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .feature-card:active { transform: scale(0.99); }
+    .feature-icon {
+      width: 46px;
+      height: 46px;
+      background: var(--green-pale);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      flex-shrink: 0;
+    }
+    .feature-content h3 {
+      font-weight: 700;
+      font-size: 0.92rem;
+      color: var(--text-dark);
+      margin-bottom: 4px;
+    }
+    .feature-content p {
+      font-size: 0.82rem;
+      color: var(--text-light);
+      line-height: 1.55;
+    }
+
+    /* ===== REVIEWS ===== */
+    .reviews { background: var(--off-white); padding-bottom: 88px; }
+    .reviews-header { margin-bottom: 32px; }
+    .google-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: white;
+      border: 1px solid rgba(26,92,56,0.12);
+      border-radius: 50px;
+      padding: 8px 16px;
+      margin-top: 16px;
+      box-shadow: var(--shadow-sm);
+    }
+    .google-badge .g-icon {
+      width: 18px; height: 18px;
+      background: #4285f4;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.6rem;
+      color: white;
+      font-weight: 900;
+      flex-shrink: 0;
+    }
+    .google-badge .badge-text {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-dark);
+    }
+    .google-badge .stars { color: #fbbc04; font-size: 0.85rem; }
+
+    /* Horizontal scroll reviews */
+    .reviews-scroll-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      margin: 0 -24px;
+      padding: 0 24px;
+    }
+    .reviews-scroll-wrapper::-webkit-scrollbar { display: none; }
+    .reviews-track {
+      display: flex;
+      gap: 16px;
+      width: max-content;
+      padding-bottom: 12px;
+    }
+    .review-card {
+      width: 300px;
+      background: white;
+      border-radius: var(--radius);
+      padding: 22px 20px;
+      box-shadow: var(--shadow-sm);
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border: 1px solid rgba(26,92,56,0.06);
+    }
+    .review-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .reviewer-avatar {
+      width: 42px; height: 42px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1rem;
+      color: white;
+      flex-shrink: 0;
+      font-family: 'Playfair Display', serif;
+    }
+    .reviewer-info .name {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-dark);
+    }
+    .reviewer-info .meta {
+      font-size: 0.7rem;
+      color: var(--text-light);
+    }
+    .review-stars { color: #fbbc04; font-size: 0.9rem; letter-spacing: 1px; }
+    .review-text {
+      font-size: 0.83rem;
+      color: var(--text-mid);
+      line-height: 1.65;
+    }
+    .review-text::before {
+      content: '"';
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--green-pale);
+      line-height: 0;
+      vertical-align: -0.5em;
+      margin-right: 2px;
+    }
+    .scroll-hint {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.72rem;
+      color: var(--text-light);
+      margin-bottom: 16px;
+    }
+    .scroll-hint-arrow { animation: float 1.8s ease-in-out infinite; }
+
+    /* ===== CONTACT ===== */
+    .contact { background: white; }
+    .contact-inner { max-width: 700px; margin: 0 auto; }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 28px;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 18px 20px;
+      background: var(--off-white);
+      border-radius: var(--radius-sm);
+      transition: transform 0.2s ease;
+    }
+    .contact-item:active { transform: scale(0.99); }
+    .contact-icon {
+      width: 44px; height: 44px;
+      background: var(--green-pale);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .contact-detail .label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin-bottom: 2px;
+    }
+    .contact-detail .value {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text-dark);
+    }
+    .contact-detail .value a { color: var(--green-mid); }
+
+    .map-embed {
+      margin-top: 24px;
+      border-radius: var(--radius);
+      overflow: hidden;
+      height: 220px;
+      background: var(--green-pale);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .map-embed iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: var(--green-deep);
+      color: rgba(255,255,255,0.7);
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.78rem;
+      line-height: 1.7;
+    }
+    footer strong { color: white; }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin: 12px 0;
+    }
+    .footer-links a {
+      color: rgba(255,255,255,0.6);
+      font-size: 0.77rem;
+      transition: color 0.2s ease;
+    }
+    .footer-links a:hover { color: white; }
+
+    /* ===== FLOATING WHATSAPP ===== */
+    .wa-float {
+      position: fixed;
+      bottom: 24px;
+      right: 20px;
+      z-index: 200;
+    }
+    .wa-btn {
+      width: 58px; height: 58px;
+      background: #25d366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.45);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      position: relative;
+    }
+    .wa-btn:active { transform: scale(0.93); }
+    .wa-btn svg { width: 30px; height: 30px; fill: white; }
+    .wa-pulse {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border-radius: 50%;
+      background: rgba(37,211,102,0.4);
+      animation: pulse-ring 2s ease-out infinite;
+    }
+    .wa-tooltip {
+      position: absolute;
+      right: 68px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: white;
+      color: var(--text-dark);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 8px;
+      white-space: nowrap;
+      box-shadow: var(--shadow-sm);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+    }
+    .wa-tooltip::after {
+      content: '';
+      position: absolute;
+      right: -6px;
+      top: 50%;
+      transform: translateY(-50%);
+      border: 6px solid transparent;
+      border-right: none;
+      border-left-color: white;
+    }
+    .wa-float:hover .wa-tooltip { opacity: 1; }
+
+    /* ===== DESKTOP ADJUSTMENTS ===== */
+    @media (min-width: 640px) {
+      .stats-grid { grid-template-columns: repeat(4, 1fr); max-width: 900px; margin: 0 auto; }
+      .services-grid { grid-template-columns: repeat(3, 1fr); }
+      .service-card.highlight { grid-column: 1 / -1; }
+      .features-grid { grid-template-columns: 1fr 1fr; }
+      .review-card { width: 340px; }
+      .contact-grid { grid-template-columns: 1fr 1fr; }
+      .founder-card { display: grid; grid-template-columns: 280px 1fr; }
+      .founder-photo { height: 100%; }
+    }
+
+    @media (min-width: 900px) {
+      section { padding: 96px 48px; }
+      nav { padding: 16px 48px; }
+      .hero { padding: 120px 48px 80px; }
+      .hero h1 { font-size: clamp(3rem, 5vw, 4.5rem); }
+      .services-grid { max-width: none; }
+      .features-grid { grid-template-columns: repeat(3, 1fr); }
+      .wa-btn { width: 62px; height: 62px; }
+    }
+
+    /* ===== UTILITY ===== */
+    .max-w { max-width: 900px; margin-left: auto; margin-right: auto; }
+    .elevion-watermark {
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.elevion-watermark a {
+  color: var(--gold-light);
+  font-weight: 700;
+  transition: opacity 0.2s ease;
+}
+
+.elevion-watermark a:hover {
+  opacity: 0.8;
+}
+
+.elevion-dot {
+  width: 4px;
+  height: 4px;
+  background: var(--green-accent);
+  border-radius: 50%;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav>
+    <div class="nav-logo">
+      <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUBePiAPkFzLA6aQNJbbJ3ckVaqykEfbILZHYvZf3pXA_ID8Erm-KiMyJ224qUx6C7AxoT8iYP7KkijebOfoBidtKuuh55QYqChDKLcHMLFapAivlxt6sV9xNTpp-RZac5FI1xxqumOb1lBI-QMSC6qDZ-wsFZGpNHv_0hBM4HtQeVzSLI93_N9G=w200" alt="Excel Tuition Centre Logo" onerror="this.style.display='none'" />
+      <div class="nav-logo-text">
+        <strong>Excel Tuition Centre</strong>
+        <span>Patturaikkal, Thrissur</span>
+      </div>
+    </div>
+    <a href="https://wa.me/918921060615?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Excel%20Tuition%20Centre." target="_blank" class="nav-cta">📩 Enquire Now</a>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-circle c1"></div>
+    <div class="hero-bg-circle c2"></div>
+    <div class="hero-bg-circle c3"></div>
+
+    <div class="hero-badge">Patturaikkal's Favourite Tuition Centre</div>
+
+    <h1>Learn From<br /><span>The Best</span></h1>
+    <p class="hero-tagline">CBSE & ICSE · Classes 7 to 12</p>
+    <p>Personalized, small-batch tuitions with experienced subject professionals. Individual attention guaranteed — because every student deserves to excel.</p>
+
+    <div class="hero-buttons">
+      <a href="https://wa.me/918921060615?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Excel%20Tuition%20Centre." target="_blank" class="btn-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#25d366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp Us
+      </a>
+      <a href="#about" class="btn-secondary">Learn More ↓</a>
+    </div>
+
+    <div class="hero-rating">
+      <div class="stars">★★★★★</div>
+      <div class="rating-text">
+        5.0 Google Rating<br/>
+        <span>Trusted by Thrissur Parents</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TICKER ===== -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-inner">
+      <div class="ticker-item"><span class="ticker-dot">✦</span> CBSE Tuitions</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> ICSE Tuitions</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Classes 7 to 12</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Maths & Science</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Social Science</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Languages</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Online Tuitions</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Home Tuitions</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> CBSE Tuitions</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> ICSE Tuitions</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Classes 7 to 12</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Maths & Science</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Social Science</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Languages</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Online Tuitions</div>
+      <div class="ticker-item"><span class="ticker-dot">✦</span> Home Tuitions</div>
+    </div>
+  </div>
+
+  <!-- ===== STATS ===== -->
+  <div class="stats-bar">
+    <div class="stats-grid max-w">
+      <div class="stat-card reveal">
+        <div class="stat-number">15<sup>+</sup></div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-number">15–20</div>
+        <div class="stat-label">Students Per Batch</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-number">6</div>
+        <div class="stat-label">Classes (7–12)</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-number">5★</div>
+        <div class="stat-label">Google Rating</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="about-inner max-w">
+      <div class="section-label reveal">About Us</div>
+      <h2 class="section-title reveal">Only Tuition Centre in<br /><span>Patturaikkal</span> Covering All Subjects</h2>
+      <p class="section-subtitle reveal">Including Social Science — taught by subject professionals who truly care.</p>
+
+      <div class="about-card reveal">
+        <p>Excel Tuition Centre offers personalized learning in small, focused groups of 15–20 students per batch, for classes 7th to 12th standard — both CBSE and ICSE. Experienced subject professionals deliver interactive classes, ensuring every student gets the individual attention they need to thrive.</p>
+        <p>Along with offline school tuitions, our faculty also provides online school tuitions and home tuitions for students. Our priority of giving individual attention allows us to identify each student's strengths and weak areas, guiding them to excel in their academic exams.</p>
+        <p>We are a team of teachers with more than 15 years of experience in education, united by a passion for teaching and a shared dream — to create a tuition centre where every child is nurtured with proper, concept-based learning.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="max-w">
+      <div class="section-label reveal">Our Services</div>
+      <h2 class="section-title reveal">Everything Your Child<br /><span style="color:var(--gold-light)">Needs to Excel</span></h2>
+      <p class="section-subtitle reveal">CBSE & ICSE tuitions across all key subjects for classes 7 to 12.</p>
+
+      <div class="services-grid">
+  <div class="service-card reveal">
+    <div class="service-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-accent)"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+    </div>
+    <div class="service-title">Science</div>
+    <ul class="service-items">
+      <li>Physics</li>
+      <li>Chemistry</li>
+      <li>Biology</li>
+    </ul>
+  </div>
+
+  <div class="service-card reveal">
+    <div class="service-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-accent)"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg>
+    </div>
+    <div class="service-title">Mathematics</div>
+    <ul class="service-items">
+      <li>Maths (7–10)</li>
+      <li>+1 & +2 Maths</li>
+      <li>Computer Science</li>
+    </ul>
+  </div>
+
+  <div class="service-card reveal">
+    <div class="service-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-accent)"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg>
+    </div>
+    <div class="service-title">Languages</div>
+    <ul class="service-items">
+      <li>English</li>
+      <li>Malayalam</li>
+      <li>Hindi</li>
+    </ul>
+  </div>
+
+  <div class="service-card reveal">
+    <div class="service-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-accent)"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+    </div>
+    <div class="service-title">Humanities</div>
+    <ul class="service-items">
+      <li>Social Science</li>
+      <li>History</li>
+      <li>Geography</li>
+    </ul>
+  </div>
+
+  <div class="service-card reveal">
+    <div class="service-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-accent)"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+    </div>
+    <div class="service-title">Online & Home</div>
+    <ul class="service-items">
+      <li>Online Tuitions</li>
+      <li>Home Tuitions</li>
+      <li>Flexible Timings</li>
+    </ul>
+  </div>
+
+  <div class="service-card reveal">
+    <div class="service-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-accent)"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+    </div>
+    <div class="service-title">Classes</div>
+    <ul class="service-items">
+      <li>7th Standard</li>
+      <li>8th – 10th</li>
+      <li>+1 & +2</li>
+    </ul>
+  </div>
+</div>
+
+
+        <div class="service-card highlight reveal">
+          <div class="service-title">⭐ Our Guarantees</div>
+          <div class="badges-row">
+            <span class="badge-pill"><span class="check">✓</span> Individual Attention</span>
+            <span class="badge-pill"><span class="check">✓</span> Subject Professionals</span>
+            <span class="badge-pill"><span class="check">✓</span> Affordable Fees</span>
+            <span class="badge-pill"><span class="check">✓</span> Small Batches (15–20)</span>
+            <span class="badge-pill"><span class="check">✓</span> Mock Tests</span>
+            <span class="badge-pill"><span class="check">✓</span> Study Notes Provided</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why" id="why">
+    <div class="max-w">
+      <div class="section-label reveal">Why Choose Us</div>
+      <h2 class="section-title reveal">What Makes Excel<br /><span>Different</span></h2>
+      <p class="section-subtitle reveal">We don't just teach — we mentor, guide, and inspire every student to reach their full potential.</p>
+
+      <div class="features-grid">
+  <div class="feature-card reveal">
+    <div class="feature-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--green-mid)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    </div>
+    <div class="feature-content">
+      <h3>Expert Faculty</h3>
+      <p>Teachers with 15+ years of experience and deep subject expertise handle every class personally.</p>
+    </div>
+  </div>
+
+  <div class="feature-card reveal">
+    <div class="feature-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--green-mid)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+    </div>
+    <div class="feature-content">
+      <h3>Individual Attention</h3>
+      <p>Small batches of just 15–20 students means every child gets the focus they deserve.</p>
+    </div>
+  </div>
+
+  <div class="feature-card reveal">
+    <div class="feature-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--green-mid)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+    </div>
+    <div class="feature-content">
+      <h3>Regular Mock Tests</h3>
+      <p>Frequent assessments help identify gaps and track progress so students are always exam-ready.</p>
+    </div>
+  </div>
+  <div class="feature-card reveal">
+    <div class="feature-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--green-mid)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+    </div>
+    <div class="feature-content">
+      <h3>Comprehensive Notes</h3>
+      <p>Well-prepared study notes and materials provided to reinforce learning beyond the classroom.</p>
+    </div>
+  </div>
+
+  <div class="feature-card reveal">
+    <div class="feature-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--green-mid)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+    </div>
+    <div class="feature-content">
+      <h3>Affordable Fees</h3>
+      <p>Quality education should be accessible. Our fees are designed to be fair and transparent.</p>
+    </div>
+  </div>
+
+  <div class="feature-card reveal">
+    <div class="feature-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--green-mid)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+    </div>
+    <div class="feature-content">
+      <h3>Flexible Learning</h3>
+      <p>Offline, online, and home tuition options to suit every student's schedule and preference.</p>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOUNDER ===== -->
+  <section class="founder" id="founder">
+    <div class="founder-inner max-w">
+      <div class="section-label reveal">Meet Our Founder</div>
+      <h2 class="section-title reveal">The Heart Behind<br /><span>Excel</span></h2>
+
+      <div class="founder-card reveal">
+        <img
+          class="founder-photo"
+          src="https://lh3.googleusercontent.com/sitesv/AA5AbUBLy9TatxvSam64YFtomVCj-KAtU7OFWYRpBKqRzpI6apE773DGUjWV-vHAvVH7eeWdgByjvRLCvObMXl_QGn4LevsPgP0q0SmpbTVc7YtiVqplokZ0t0hJ2It6kbikx1zF0RpL7tiJpMUXgud0309w6ipyPJ16-8N_L6xbuhGNZgl9YfKxSBZxeqtiValhXqerkCcQewvT1dRloznSHh8AKnrDbLAQX4XtsHg=w600"
+          alt="Uma Venkitesh - Founder of Excel Tuition Centre"
+          onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22 viewBox=%220 0 300 300%22%3E%3Crect fill=%22%23e8f5ee%22 width=%22300%22 height=%22300%22/%3E%3Ccircle fill=%22%231e7a47%22 cx=%22150%22 cy=%22110%22 r=%2260%22/%3E%3Cellipse fill=%22%231e7a47%22 cx=%22150%22 cy=%22270%22 rx=%22100%22 ry=%2280%22/%3E%3C/svg%3E'"
+        />
+        <div class="founder-info">
+          <div class="founder-name">Uma Venkitesh</div>
+          <div class="founder-role">Founder & Lead Educator</div>
+          <p class="founder-bio">Uma Venkitesh founded Excel Tuition Centre with a deep passion for education and a drive to make quality learning accessible to every student. Holding a B.Tech in Electrical & Electronics Engineering from NSS College of Engineering, Palakkad, and an MCA from IGNOU, she began her teaching career in 2014.</p>
+          <p class="founder-bio" style="margin-top:12px;">With experience at Chinmaya Mission College, Chelakkara Central School (CBSE), and Harisree Vidya Nidhi School (ICSE), Uma brings a wealth of institutional knowledge and a genuine love for nurturing students — one concept at a time.</p>
+          <div class="founder-credentials">
+            <span class="credential-tag">B.Tech – EEE</span>
+            <span class="credential-tag">MCA – IGNOU</span>
+            <span class="credential-tag">10+ Years Teaching</span>
+            <span class="credential-tag">CBSE & ICSE Expert</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS ===== -->
+  <section class="reviews" id="reviews">
+    <div class="max-w">
+      <div class="reviews-header">
+        <div class="section-label reveal">What Parents Say</div>
+        <h2 class="section-title reveal">Loved by <span>Thrissur Families</span></h2>
+        <div class="google-badge reveal">
+          <div class="g-icon">G</div>
+          <div class="badge-text">
+            <span class="stars">★★★★★</span> 5.0 Google Rating — Verified Reviews
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint reveal">
+        <span class="scroll-hint-arrow">→</span> Swipe to read more reviews
+      </div>
+
+      <div class="reviews-scroll-wrapper">
+        <div class="reviews-track">
+
+          <!-- Review 1 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background: linear-gradient(135deg, #c97b4a, #e8975a);">L</div>
+              <div class="reviewer-info">
+                <div class="name">Lakshmi Ajay</div>
+                <div class="meta">a year ago · 1 review</div>
+              </div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <div class="review-text">Only a passionate teacher can deliver quality education. My daughter had a wonderful learning journey of 3 years with Uma Miss. She could achieve very good score in her 10th exam with the support of Uma miss. Thank you and all the best mam. Keep inspiring many children.</div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background: linear-gradient(135deg, #4a7fc9, #5a9be8);">V</div>
+              <div class="reviewer-info">
+                <div class="name">Viswas K P</div>
+                <div class="meta">2 years ago · Local Guide · 26 reviews</div>
+              </div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <div class="review-text">This tutor is exceptional. With a wealth of experience, they patiently guide students through every topic with ease. Their comprehensive approach ensures no concept is left unexplored. Highly recommended for anyone seeking a dedicated and effective teacher.</div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background: linear-gradient(135deg, #9b4ac9, #b85ae8);">I</div>
+              <div class="reviewer-info">
+                <div class="name">Indrajith Maruthonkara</div>
+                <div class="meta">2 years ago · 6 reviews</div>
+              </div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <div class="review-text">Excel Tuition Centre stands out for its personalised teaching that caters to individual student needs, fostering both academic excellence and a passion for learning. With expert tutors and innovative methods, it's a top recommendation for effective and engaging education.</div>
+          </div>
+
+          <!-- Review 4 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background: linear-gradient(135deg, #c94a4a, #e85a5a);">V</div>
+              <div class="reviewer-info">
+                <div class="name">Vinny MJ</div>
+                <div class="meta">2 years ago · 2 reviews</div>
+              </div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <div class="review-text">Teachers from the Excel Tuition Centre are well educated and qualified, they create a very friendly atmosphere for the students to help them study, they support conceptual learning, which helps the students achieve greater heights in their academics. 👍</div>
+          </div>
+
+          <!-- Review 5 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background: linear-gradient(135deg, #4ac97b, #5ae898);">P</div>
+              <div class="reviewer-info">
+                <div class="name">Preethi Subramanian</div>
+                <div class="meta">2 years ago · Local Guide · 18 reviews</div>
+              </div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <div class="review-text">Tuition center managed and run by a well learned and well motivated group of individuals who want only the best results for their students.</div>
+          </div>
+
+          <!-- Review 6 -->
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background: linear-gradient(135deg, #c9b84a, #e8d45a);">F</div>
+              <div class="reviewer-info">
+                <div class="name">Fufi Luv</div>
+                <div class="meta">2 months ago · 4 reviews</div>
+              </div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <div class="review-text">Excellent coaching centre with a great atmosphere for studying. The teachers are also knowledgeable. They conduct regular mock tests and provide notes. Classrooms are well-maintained which helps with concentration. Highly recommended for anyone looking to boost their grades!</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="contact-inner max-w">
+      <div class="section-label reveal">Find Us</div>
+      <h2 class="section-title reveal">Get in <span>Touch</span></h2>
+      <p class="section-subtitle reveal">Reach out via WhatsApp for quick responses. We'd love to welcome your child to the Excel family.</p>
+
+      <a href="https://wa.me/918921060615?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Excel%20Tuition%20Centre." target="_blank" class="contact-item reveal">
+  <div class="contact-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="var(--green-mid)"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </div>
+  <div class="contact-detail">
+    <div class="label">WhatsApp</div>
+    <div class="value" style="color:var(--green-mid)">+91 89210 60615</div>
+  </div>
+</a>
+
+
+  <a href="tel:+918921060615" class="contact-item reveal">
+    <div class="contact-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-mid)"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    </div>
+    <div class="contact-detail">
+      <div class="label">Phone</div>
+      <div class="value">+91 89210 60615</div>
+    </div>
+  </a>
+
+  <a href="mailto:uvenkitesh@gmail.com" class="contact-item reveal">
+    <div class="contact-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-mid)"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+    </div>
+    <div class="contact-detail">
+      <div class="label">Email</div>
+      <div class="value" style="font-size:0.8rem">uvenkitesh@gmail.com</div>
+    </div>
+  </a>
+
+  <a href="https://www.facebook.com/p/Excel-Tuitions-61556745068355/" target="_blank" class="contact-item reveal">
+    <div class="contact-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-mid)"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+    </div>
+    <div class="contact-detail">
+      <div class="label">Facebook</div>
+      <div class="value" style="color:#1877f2">Excel Tuitions</div>
+    </div>
+  </a>
+</div>
+
+
+      <div class="contact-item reveal" style="margin-top:14px; background:var(--off-white);">
+  <div class="contact-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--green-mid)"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+  </div>
+  <div class="contact-detail">
+    <div class="label">Centre Location</div>
+    <div class="value" style="font-size:0.82rem; font-weight:500; line-height:1.5;">2nd Floor, CA Office of GV Sukumar, Sastha Lane, opp. KR Bakes, Patturaikkal, Thrissur, Kerala 680022</div>
+  </div>
+</div>
+<div class="map-embed reveal">
+  <iframe
+    src="https://www.google.com/maps?q=10.535071,76.212154&hl=es;z=14&output=embed"
+    width="100%" 
+    height="100%" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Excel Tuition Centre Location">
+  </iframe>
+</div>
+      <!-- Big WhatsApp CTA -->
+      <a href="https://wa.me/918921060615?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Excel%20Tuition%20Centre." target="_blank" style="display:flex;align-items:center;justify-content:center;gap:12px;background:#25d366;color:white;font-weight:700;font-size:1rem;padding:18px 28px;border-radius:16px;margin-top:24px;box-shadow:0 8px 24px rgba(37,211,102,0.35);transition:transform 0.2s ease;" class="reveal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Chat with Us on WhatsApp — Enquire Now
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <strong>Excel Tuition Centre</strong><br />
+    Patturaikkal, Thrissur, Kerala 680022<br />
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="https://www.facebook.com/p/Excel-Tuitions-61556745068355/" target="_blank">Facebook</a>
+    </div>
+    © 2024 Excel Tuition Centre. All Rights Reserved.<br />
+    <span style="font-size:0.7rem; opacity:0.6;">CBSE & ICSE Tuitions · Classes 7 to 12 · Thrissur, Kerala</span>
+    
+    <div class="elevion-watermark">
+  <span>Crafted with Excellence by</span>
+  <div class="elevion-dot"></div>
+  <a href="#">Elevion Media</a>
+</div>
+  </footer>
+
+  <!-- ===== FLOATING WHATSAPP ===== -->
+  <div class="wa-float">
+    <a href="https://wa.me/918921060615?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20at%20Excel%20Tuition%20Centre." target="_blank" class="wa-btn" aria-label="Chat on WhatsApp">
+      <div class="wa-pulse"></div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+    <div class="wa-tooltip">Chat for enquiries</div>
+  </div>
+
+  <!-- ===== JS: Scroll Reveal ===== -->
+  <script>
+    // Intersection Observer for reveal animations
+    const revealEls = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          // Stagger siblings
+          const siblings = Array.from(entry.target.parentElement.querySelectorAll('.reveal:not(.visible)'));
+          const idx = siblings.indexOf(entry.target);
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, Math.min(idx * 80, 320));
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    revealEls.forEach(el => observer.observe(el));
+
+    // Smooth anchor scrolling with offset for fixed nav
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          const top = target.getBoundingClientRect().top + window.scrollY - 72;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Nav scroll shadow
+    const nav = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+      nav.style.boxShadow = window.scrollY > 10
+        ? '0 2px 20px rgba(26,92,56,0.12)'
+        : '0 1px 0 rgba(26,92,56,0.1)';
+    }, { passive: true });
+  </script>
+
+  <!-- JSON-LD Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Excel Tuition Centre",
+    "description": "CBSE and ICSE tuition centre in Patturaikkal, Thrissur offering personalized small-batch coaching for classes 7 to 12.",
+    "url": "https://sites.google.com/view/exceltuitioncentre/home",
+    "telephone": "+918921060615",
+    "email": "uvenkitesh@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2nd Floor, CA Office of GV Sukumar, Sastha Lane, opp. KR Bakes, Patturaikkal",
+      "addressLocality": "Thrissur",
+      "addressRegion": "Kerala",
+      "postalCode": "680022",
+      "addressCountry": "IN"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "6",
+      "bestRating": "5"
+    },
+    "sameAs": [
+      "https://www.facebook.com/p/Excel-Tuitions-61556745068355/"
+    ]
+  }
+  </script>
+</body>
+</html>
